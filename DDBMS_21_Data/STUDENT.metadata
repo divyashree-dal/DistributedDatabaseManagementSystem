@@ -1,0 +1,4 @@
+ColumnName|ColumnType|Constraint|ForeignKeyTable|ForeignKeyColumn
+ID|INT|PRIMARY_KEY|null|null
+NAME|TEXT|UNKNOWN|null|null
+DEPTID|INT|FOREIGN_KEY|DEPARTMENT|DEPTID

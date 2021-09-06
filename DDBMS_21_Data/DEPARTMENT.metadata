@@ -1,0 +1,3 @@
+ColumnName|ColumnType|Constraint|ForeignKeyTable|ForeignKeyColumn
+DEPTID|INT|PRIMARY_KEY|null|null
+DEPTNAME|TEXT|UNKNOWN|null|null

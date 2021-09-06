@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+    <Appenders>
+        <RollingFile name="GeneralRollingFile" fileName="logs/general/app.log" filePattern="logs/general/app-%d{MM-dd-yyyy-HH}.log.gz"
+                     ignoreExceptions="false">
+            <PatternLayout>
+                <Pattern>%-5p | %d{yyyy-MM-dd HH:mm:ss} | [%t] (%F:%L) - %m%n</Pattern>
+            </PatternLayout>
+            <LevelRangeFilter minLevel="FATAL" maxLevel="DEBUG" onMatch="ACCEPT" onMismatch="DENY"/>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="10 MB" />
+                <TimeBasedTriggeringPolicy />
+            </Policies>
+        </RollingFile>
+        <RollingFile name="ErrorRollingFile" fileName="logs/error/error.log" filePattern="logs/error/error-%d{MM-dd-yyyy-HH}.log.gz"
+                     ignoreExceptions="false">
+            <PatternLayout>
+                <Pattern>%-5p | %d{yyyy-MM-dd HH:mm:ss} | [%t] (%F:%L) - %m%n</Pattern>
+            </PatternLayout>
+            <LevelRangeFilter minLevel="FATAL" maxLevel="WARN" onMatch="ACCEPT" onMismatch="DENY"/>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="10 MB" />
+                <TimeBasedTriggeringPolicy />
+            </Policies>
+        </RollingFile>
+        <RollingFile name="EventRollingFile" fileName="logs/event/event.log" filePattern="logs/event/event-%d{MM-dd-yyyy-HH}.log.gz"
+                     ignoreExceptions="false">
+            <PatternLayout>
+                <Pattern>%-5p | %d{yyyy-MM-dd HH:mm:ss} | [%t] (%F:%L) - %m%n</Pattern>
+            </PatternLayout>
+            <LevelRangeFilter minLevel="DEBUG" maxLevel="DEBUG" onMatch="ACCEPT" onMismatch="DENY"/>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="10 MB" />
+                <TimeBasedTriggeringPolicy />
+            </Policies>
+        </RollingFile>
+        <Console name="console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%msg%n" />
+            <LevelRangeFilter maxLevel="INFO" onMatch="ACCEPT" onMismatch="DENY"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Root level="debug" additivity="false">
+            <AppenderRef ref="GeneralRollingFile"/>
+            <AppenderRef ref="ErrorRollingFile"/>
+            <AppenderRef ref="EventRollingFile"/>
+            <AppenderRef ref="console" />
+        </Root>
+    </Loggers>
+</Configuration>

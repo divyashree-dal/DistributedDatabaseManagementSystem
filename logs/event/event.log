@@ -1,0 +1,71 @@
+DEBUG | 2021-04-03 23:00:16 | [main] (QueryProcessor.java:27) - Execution started for query - 'DELETE FROM DEPARTMENT NODE LOCAL WHERE DEPTID = 2;' on 2021-04-03T23:00:16.071+0530
+DEBUG | 2021-04-03 23:00:16 | [main] (QueryProcessor.java:61) - Execution completed for query - 'DELETE FROM DEPARTMENT NODE LOCAL WHERE DEPTID = 2;' on 2021-04-03T23:00:16.088+0530
+DEBUG | 2021-04-03 23:00:16 | [main] (QueryProcessor.java:62) - Total execution time for query - 'DELETE FROM DEPARTMENT NODE LOCAL WHERE DEPTID = 2;' is 17ms.
+DEBUG | 2021-04-03 23:00:28 | [main] (QueryProcessor.java:27) - Execution started for query - 'DELETE FROM DEPARTMENT;' on 2021-04-03T23:00:28.603+0530
+DEBUG | 2021-04-03 23:00:28 | [main] (QueryProcessor.java:61) - Execution completed for query - 'DELETE FROM DEPARTMENT;' on 2021-04-03T23:00:28.606+0530
+DEBUG | 2021-04-03 23:00:28 | [main] (QueryProcessor.java:62) - Total execution time for query - 'DELETE FROM DEPARTMENT;' is 3ms.
+DEBUG | 2021-04-03 23:00:38 | [main] (QueryProcessor.java:27) - Execution started for query - 'DELETE FROM DEPARTMENT NODE LOCAL;' on 2021-04-03T23:00:38.441+0530
+DEBUG | 2021-04-03 23:00:38 | [main] (QueryProcessor.java:61) - Execution completed for query - 'DELETE FROM DEPARTMENT NODE LOCAL;' on 2021-04-03T23:00:38.444+0530
+DEBUG | 2021-04-03 23:00:38 | [main] (QueryProcessor.java:62) - Total execution time for query - 'DELETE FROM DEPARTMENT NODE LOCAL;' is 3ms.
+DEBUG | 2021-04-03 23:02:26 | [main] (QueryProcessor.java:27) - Execution started for query - 'DELETE FROM DEPARTMENT NODE LOCAL;' on 2021-04-03T23:02:26.222+0530
+DEBUG | 2021-04-03 23:09:36 | [main] (QueryProcessor.java:61) - Execution completed for query - 'DELETE FROM DEPARTMENT NODE LOCAL;' on 2021-04-03T23:09:36.092+0530
+DEBUG | 2021-04-03 23:09:36 | [main] (QueryProcessor.java:62) - Total execution time for query - 'DELETE FROM DEPARTMENT NODE LOCAL;' is 429870ms.
+DEBUG | 2021-04-03 23:25:49 | [main] (QueryProcessor.java:27) - Execution started for query - 'DELETE FROM DEPARTMENT NODE LOCAL;' on 2021-04-03T23:25:49.230+0530
+DEBUG | 2021-04-03 23:25:49 | [main] (QueryProcessor.java:61) - Execution completed for query - 'DELETE FROM DEPARTMENT NODE LOCAL;' on 2021-04-03T23:25:49.247+0530
+DEBUG | 2021-04-03 23:25:49 | [main] (QueryProcessor.java:62) - Total execution time for query - 'DELETE FROM DEPARTMENT NODE LOCAL;' is 17ms.
+DEBUG | 2021-04-03 23:26:25 | [main] (QueryProcessor.java:27) - Execution started for query - 'DELETE FROM DEPARTMENT NODE LOCAL WHERE DEPTID = 1;' on 2021-04-03T23:26:25.678+0530
+DEBUG | 2021-04-03 23:26:25 | [main] (QueryProcessor.java:61) - Execution completed for query - 'DELETE FROM DEPARTMENT NODE LOCAL WHERE DEPTID = 1;' on 2021-04-03T23:26:25.683+0530
+DEBUG | 2021-04-03 23:26:25 | [main] (QueryProcessor.java:62) - Total execution time for query - 'DELETE FROM DEPARTMENT NODE LOCAL WHERE DEPTID = 1;' is 5ms.
+DEBUG | 2021-04-03 23:27:23 | [main] (QueryProcessor.java:27) - Execution started for query - 'DELETE FROM STUDENT NODE LOCAL WHERE DEPTID = NAMMEME;' on 2021-04-03T23:27:23.484+0530
+DEBUG | 2021-04-03 23:27:23 | [main] (QueryProcessor.java:61) - Execution completed for query - 'DELETE FROM STUDENT NODE LOCAL WHERE DEPTID = NAMMEME;' on 2021-04-03T23:27:23.490+0530
+DEBUG | 2021-04-03 23:27:23 | [main] (QueryProcessor.java:62) - Total execution time for query - 'DELETE FROM STUDENT NODE LOCAL WHERE DEPTID = NAMMEME;' is 6ms.
+DEBUG | 2021-04-03 23:27:32 | [main] (QueryProcessor.java:27) - Execution started for query - 'ELETE FROM STUDENT NODE LOCAL WHERE DEPTID = 1;' on 2021-04-03T23:27:32.253+0530
+DEBUG | 2021-04-03 23:27:32 | [main] (QueryProcessor.java:61) - Execution completed for query - 'ELETE FROM STUDENT NODE LOCAL WHERE DEPTID = 1;' on 2021-04-03T23:27:32.254+0530
+DEBUG | 2021-04-03 23:27:32 | [main] (QueryProcessor.java:62) - Total execution time for query - 'ELETE FROM STUDENT NODE LOCAL WHERE DEPTID = 1;' is 1ms.
+DEBUG | 2021-04-03 23:27:44 | [main] (QueryProcessor.java:27) - Execution started for query - 'DELETE FROM STUDENT NODE LOCAL WHERE DEPTID = 1;' on 2021-04-03T23:27:44.997+0530
+DEBUG | 2021-04-03 23:27:45 | [main] (QueryProcessor.java:61) - Execution completed for query - 'DELETE FROM STUDENT NODE LOCAL WHERE DEPTID = 1;' on 2021-04-03T23:27:45.005+0530
+DEBUG | 2021-04-03 23:27:45 | [main] (QueryProcessor.java:62) - Total execution time for query - 'DELETE FROM STUDENT NODE LOCAL WHERE DEPTID = 1;' is 8ms.
+DEBUG | 2021-04-03 23:28:10 | [main] (QueryProcessor.java:27) - Execution started for query - 'DELETE FROM DEPARTMENT NODE LOCAL WHERE DEPTID = 1;' on 2021-04-03T23:28:10.375+0530
+DEBUG | 2021-04-03 23:28:10 | [main] (QueryProcessor.java:61) - Execution completed for query - 'DELETE FROM DEPARTMENT NODE LOCAL WHERE DEPTID = 1;' on 2021-04-03T23:28:10.380+0530
+DEBUG | 2021-04-03 23:28:10 | [main] (QueryProcessor.java:62) - Total execution time for query - 'DELETE FROM DEPARTMENT NODE LOCAL WHERE DEPTID = 1;' is 5ms.
+DEBUG | 2021-04-03 23:29:01 | [main] (QueryProcessor.java:27) - Execution started for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 4 WHERE DEPTID = 3;' on 2021-04-03T23:29:01.622+0530
+DEBUG | 2021-04-03 23:29:01 | [main] (QueryProcessor.java:61) - Execution completed for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 4 WHERE DEPTID = 3;' on 2021-04-03T23:29:01.636+0530
+DEBUG | 2021-04-03 23:29:01 | [main] (QueryProcessor.java:62) - Total execution time for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 4 WHERE DEPTID = 3;' is 14ms.
+DEBUG | 2021-04-03 23:29:15 | [main] (QueryProcessor.java:27) - Execution started for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 4 WHERE DEPTID = MMM;' on 2021-04-03T23:29:15.713+0530
+DEBUG | 2021-04-03 23:29:15 | [main] (QueryProcessor.java:61) - Execution completed for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 4 WHERE DEPTID = MMM;' on 2021-04-03T23:29:15.716+0530
+DEBUG | 2021-04-03 23:29:15 | [main] (QueryProcessor.java:62) - Total execution time for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 4 WHERE DEPTID = MMM;' is 3ms.
+DEBUG | 2021-04-03 23:29:26 | [main] (QueryProcessor.java:27) - Execution started for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 4 ;' on 2021-04-03T23:29:26.675+0530
+DEBUG | 2021-04-03 23:30:14 | [main] (QueryProcessor.java:27) - Execution started for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 4;' on 2021-04-03T23:30:14.263+0530
+DEBUG | 2021-04-03 23:30:14 | [main] (QueryProcessor.java:61) - Execution completed for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 4;' on 2021-04-03T23:30:14.281+0530
+DEBUG | 2021-04-03 23:30:14 | [main] (QueryProcessor.java:62) - Total execution time for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 4;' is 18ms.
+DEBUG | 2021-04-03 23:30:18 | [main] (QueryProcessor.java:27) - Execution started for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 4 ;' on 2021-04-03T23:30:18.522+0530
+DEBUG | 2021-04-03 23:37:28 | [main] (QueryProcessor.java:27) - Execution started for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 4 ;' on 2021-04-03T23:37:28.674+0530
+DEBUG | 2021-04-03 23:37:28 | [main] (QueryProcessor.java:61) - Execution completed for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 4 ;' on 2021-04-03T23:37:28.681+0530
+DEBUG | 2021-04-03 23:37:28 | [main] (QueryProcessor.java:62) - Total execution time for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 4 ;' is 7ms.
+DEBUG | 2021-04-03 23:37:37 | [main] (QueryProcessor.java:27) - Execution started for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 4;' on 2021-04-03T23:37:37.511+0530
+DEBUG | 2021-04-03 23:37:37 | [main] (QueryProcessor.java:61) - Execution completed for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 4;' on 2021-04-03T23:37:37.512+0530
+DEBUG | 2021-04-03 23:37:37 | [main] (QueryProcessor.java:62) - Total execution time for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 4;' is 1ms.
+DEBUG | 2021-04-03 23:37:54 | [main] (QueryProcessor.java:27) - Execution started for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 4;' on 2021-04-03T23:37:54.236+0530
+DEBUG | 2021-04-03 23:37:54 | [main] (QueryProcessor.java:61) - Execution completed for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 4;' on 2021-04-03T23:37:54.237+0530
+DEBUG | 2021-04-03 23:37:54 | [main] (QueryProcessor.java:62) - Total execution time for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 4;' is 1ms.
+DEBUG | 2021-04-03 23:39:55 | [main] (QueryProcessor.java:27) - Execution started for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 2   ;' on 2021-04-03T23:39:55.617+0530
+DEBUG | 2021-04-03 23:40:32 | [main] (QueryProcessor.java:27) - Execution started for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 2   ;' on 2021-04-03T23:40:32.508+0530
+DEBUG | 2021-04-03 23:41:16 | [main] (QueryProcessor.java:27) - Execution started for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 2   ;' on 2021-04-03T23:41:16.589+0530
+DEBUG | 2021-04-03 23:44:04 | [main] (QueryProcessor.java:27) - Execution started for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 2   ;' on 2021-04-03T23:44:04.699+0530
+DEBUG | 2021-04-03 23:44:04 | [main] (QueryProcessor.java:61) - Execution completed for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 2   ;' on 2021-04-03T23:44:04.715+0530
+DEBUG | 2021-04-03 23:44:04 | [main] (QueryProcessor.java:62) - Total execution time for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 2   ;' is 16ms.
+DEBUG | 2021-04-03 23:45:40 | [main] (QueryProcessor.java:27) - Execution started for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 2   ;' on 2021-04-03T23:45:40.885+0530
+DEBUG | 2021-04-03 23:45:40 | [main] (QueryProcessor.java:61) - Execution completed for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 2   ;' on 2021-04-03T23:45:40.901+0530
+DEBUG | 2021-04-03 23:45:40 | [main] (QueryProcessor.java:62) - Total execution time for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 2   ;' is 16ms.
+DEBUG | 2021-04-03 23:49:20 | [main] (QueryProcessor.java:27) - Execution started for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 2 WHERE DEPTID = 3;' on 2021-04-03T23:49:20.607+0530
+DEBUG | 2021-04-03 23:49:20 | [main] (QueryProcessor.java:61) - Execution completed for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 2 WHERE DEPTID = 3;' on 2021-04-03T23:49:20.613+0530
+DEBUG | 2021-04-03 23:49:20 | [main] (QueryProcessor.java:62) - Total execution time for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 2 WHERE DEPTID = 3;' is 6ms.
+DEBUG | 2021-04-03 23:49:30 | [main] (QueryProcessor.java:27) - Execution started for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 4 WHERE DEPTID = 3;' on 2021-04-03T23:49:30.870+0530
+DEBUG | 2021-04-03 23:49:30 | [main] (QueryProcessor.java:61) - Execution completed for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 4 WHERE DEPTID = 3;' on 2021-04-03T23:49:30.875+0530
+DEBUG | 2021-04-03 23:49:30 | [main] (QueryProcessor.java:62) - Total execution time for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 4 WHERE DEPTID = 3;' is 5ms.
+DEBUG | 2021-04-03 23:50:09 | [main] (QueryProcessor.java:27) - Execution started for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 5 WHERE DEPTID = 4;' on 2021-04-03T23:50:09.909+0530
+DEBUG | 2021-04-03 23:50:09 | [main] (QueryProcessor.java:61) - Execution completed for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 5 WHERE DEPTID = 4;' on 2021-04-03T23:50:09.919+0530
+DEBUG | 2021-04-03 23:50:09 | [main] (QueryProcessor.java:62) - Total execution time for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 5 WHERE DEPTID = 4;' is 10ms.
+DEBUG | 2021-04-03 23:50:45 | [main] (QueryProcessor.java:27) - Execution started for query - 'UPDATE DEPARTMENT NODE REMOTE SET DEPTID = 5 WHERE DEPTID = 4;' on 2021-04-03T23:50:45.592+0530
+DEBUG | 2021-04-03 23:50:49 | [main] (QueryProcessor.java:61) - Execution completed for query - 'UPDATE DEPARTMENT NODE REMOTE SET DEPTID = 5 WHERE DEPTID = 4;' on 2021-04-03T23:50:49.186+0530
+DEBUG | 2021-04-03 23:50:49 | [main] (QueryProcessor.java:62) - Total execution time for query - 'UPDATE DEPARTMENT NODE REMOTE SET DEPTID = 5 WHERE DEPTID = 4;' is 3594ms.

@@ -1,0 +1,330 @@
+INFO  | 2021-04-03 23:00:04 | [main] (DDBMSClient.java:19) -    .-----------------------------.                  
+INFO  | 2021-04-03 23:00:04 | [main] (DDBMSClient.java:20) -    |  Welcome to Group 21 DDBMS  |                  
+INFO  | 2021-04-03 23:00:04 | [main] (DDBMSClient.java:21) -    '-----------------------------'                  
+INFO  | 2021-04-03 23:00:04 | [main] (DDBMSClient.java:22) -                   |                                 
+INFO  | 2021-04-03 23:00:04 | [main] (DDBMSClient.java:23) -                   |                                 
+INFO  | 2021-04-03 23:00:04 | [main] (DDBMSClient.java:24) -                   |                 (\_/)          
+INFO  | 2021-04-03 23:00:04 | [main] (DDBMSClient.java:25) -                   '---------------- (O.O)           
+INFO  | 2021-04-03 23:00:04 | [main] (DDBMSClient.java:26) -                                     (> <)           
+INFO  | 2021-04-03 23:00:04 | [main] (DDBMSClient.java:27) - 
+INFO  | 2021-04-03 23:00:09 | [main] (DDBMSClient.java:47) - 
+INFO  | 2021-04-03 23:00:09 | [main] (DDBMSClient.java:51) - DDBMS>>
+DEBUG | 2021-04-03 23:00:16 | [main] (QueryProcessor.java:27) - Execution started for query - 'DELETE FROM DEPARTMENT NODE LOCAL WHERE DEPTID = 2;' on 2021-04-03T23:00:16.071+0530
+ERROR | 2021-04-03 23:00:16 | [main] (DeleteParser.java:141) - Error occurred while deleting the table
+DEBUG | 2021-04-03 23:00:16 | [main] (QueryProcessor.java:61) - Execution completed for query - 'DELETE FROM DEPARTMENT NODE LOCAL WHERE DEPTID = 2;' on 2021-04-03T23:00:16.088+0530
+DEBUG | 2021-04-03 23:00:16 | [main] (QueryProcessor.java:62) - Total execution time for query - 'DELETE FROM DEPARTMENT NODE LOCAL WHERE DEPTID = 2;' is 17ms.
+INFO  | 2021-04-03 23:00:16 | [main] (QueryProcessor.java:63) - Query executed in 17ms.
+INFO  | 2021-04-03 23:00:17 | [main] (DDBMSClient.java:89) - 
+INFO  | 2021-04-03 23:00:17 | [main] (DDBMSClient.java:51) - DDBMS>>
+DEBUG | 2021-04-03 23:00:28 | [main] (QueryProcessor.java:27) - Execution started for query - 'DELETE FROM DEPARTMENT;' on 2021-04-03T23:00:28.603+0530
+ERROR | 2021-04-03 23:00:28 | [main] (DeleteParser.java:28) - Syntax error in provided delete query!
+DEBUG | 2021-04-03 23:00:28 | [main] (QueryProcessor.java:61) - Execution completed for query - 'DELETE FROM DEPARTMENT;' on 2021-04-03T23:00:28.606+0530
+DEBUG | 2021-04-03 23:00:28 | [main] (QueryProcessor.java:62) - Total execution time for query - 'DELETE FROM DEPARTMENT;' is 3ms.
+INFO  | 2021-04-03 23:00:28 | [main] (QueryProcessor.java:63) - Query executed in 3ms.
+INFO  | 2021-04-03 23:00:29 | [main] (DDBMSClient.java:89) - 
+INFO  | 2021-04-03 23:00:29 | [main] (DDBMSClient.java:51) - DDBMS>>
+DEBUG | 2021-04-03 23:00:38 | [main] (QueryProcessor.java:27) - Execution started for query - 'DELETE FROM DEPARTMENT NODE LOCAL;' on 2021-04-03T23:00:38.441+0530
+ERROR | 2021-04-03 23:00:38 | [main] (DeleteParser.java:92) - Error occurred ..........while deleting the table
+DEBUG | 2021-04-03 23:00:38 | [main] (QueryProcessor.java:61) - Execution completed for query - 'DELETE FROM DEPARTMENT NODE LOCAL;' on 2021-04-03T23:00:38.444+0530
+DEBUG | 2021-04-03 23:00:38 | [main] (QueryProcessor.java:62) - Total execution time for query - 'DELETE FROM DEPARTMENT NODE LOCAL;' is 3ms.
+INFO  | 2021-04-03 23:00:38 | [main] (QueryProcessor.java:63) - Query executed in 3ms.
+INFO  | 2021-04-03 23:00:39 | [main] (DDBMSClient.java:89) - 
+INFO  | 2021-04-03 23:00:39 | [main] (DDBMSClient.java:51) - DDBMS>>
+INFO  | 2021-04-03 23:02:08 | [main] (DDBMSClient.java:19) -    .-----------------------------.                  
+INFO  | 2021-04-03 23:02:08 | [main] (DDBMSClient.java:20) -    |  Welcome to Group 21 DDBMS  |                  
+INFO  | 2021-04-03 23:02:08 | [main] (DDBMSClient.java:21) -    '-----------------------------'                  
+INFO  | 2021-04-03 23:02:08 | [main] (DDBMSClient.java:22) -                   |                                 
+INFO  | 2021-04-03 23:02:08 | [main] (DDBMSClient.java:23) -                   |                                 
+INFO  | 2021-04-03 23:02:08 | [main] (DDBMSClient.java:24) -                   |                 (\_/)          
+INFO  | 2021-04-03 23:02:08 | [main] (DDBMSClient.java:25) -                   '---------------- (O.O)           
+INFO  | 2021-04-03 23:02:08 | [main] (DDBMSClient.java:26) -                                     (> <)           
+INFO  | 2021-04-03 23:02:08 | [main] (DDBMSClient.java:27) - 
+INFO  | 2021-04-03 23:02:13 | [main] (DDBMSClient.java:47) - 
+INFO  | 2021-04-03 23:02:13 | [main] (DDBMSClient.java:51) - DDBMS>>
+DEBUG | 2021-04-03 23:02:26 | [main] (QueryProcessor.java:27) - Execution started for query - 'DELETE FROM DEPARTMENT NODE LOCAL;' on 2021-04-03T23:02:26.222+0530
+ERROR | 2021-04-03 23:09:36 | [main] (DeleteParser.java:92) - Error occurred ..........while deleting the table
+DEBUG | 2021-04-03 23:09:36 | [main] (QueryProcessor.java:61) - Execution completed for query - 'DELETE FROM DEPARTMENT NODE LOCAL;' on 2021-04-03T23:09:36.092+0530
+DEBUG | 2021-04-03 23:09:36 | [main] (QueryProcessor.java:62) - Total execution time for query - 'DELETE FROM DEPARTMENT NODE LOCAL;' is 429870ms.
+INFO  | 2021-04-03 23:09:36 | [main] (QueryProcessor.java:63) - Query executed in 429870ms.
+INFO  | 2021-04-03 23:16:12 | [main] (DDBMSClient.java:19) -    .-----------------------------.                  
+INFO  | 2021-04-03 23:16:12 | [main] (DDBMSClient.java:20) -    |  Welcome to Group 21 DDBMS  |                  
+INFO  | 2021-04-03 23:16:12 | [main] (DDBMSClient.java:21) -    '-----------------------------'                  
+INFO  | 2021-04-03 23:16:12 | [main] (DDBMSClient.java:22) -                   |                                 
+INFO  | 2021-04-03 23:16:12 | [main] (DDBMSClient.java:23) -                   |                                 
+INFO  | 2021-04-03 23:16:12 | [main] (DDBMSClient.java:24) -                   |                 (\_/)          
+INFO  | 2021-04-03 23:16:12 | [main] (DDBMSClient.java:25) -                   '---------------- (O.O)           
+INFO  | 2021-04-03 23:16:12 | [main] (DDBMSClient.java:26) -                                     (> <)           
+INFO  | 2021-04-03 23:16:12 | [main] (DDBMSClient.java:27) - 
+INFO  | 2021-04-03 23:16:17 | [main] (DDBMSClient.java:47) - 
+INFO  | 2021-04-03 23:16:17 | [main] (DDBMSClient.java:51) - DDBMS>>
+ERROR | 2021-04-03 23:25:24 | [main] (DDBMSClient.java:91) - Error occurred while execution : 
+java.util.NoSuchElementException: No line found
+	at java.util.Scanner.nextLine(Scanner.java:1651) ~[?:?]
+	at com.group21.client.DDBMSClient.main(DDBMSClient.java:53) [classes/:?]
+INFO  | 2021-04-03 23:25:34 | [main] (DDBMSClient.java:19) -    .-----------------------------.                  
+INFO  | 2021-04-03 23:25:34 | [main] (DDBMSClient.java:20) -    |  Welcome to Group 21 DDBMS  |                  
+INFO  | 2021-04-03 23:25:34 | [main] (DDBMSClient.java:21) -    '-----------------------------'                  
+INFO  | 2021-04-03 23:25:34 | [main] (DDBMSClient.java:22) -                   |                                 
+INFO  | 2021-04-03 23:25:34 | [main] (DDBMSClient.java:23) -                   |                                 
+INFO  | 2021-04-03 23:25:34 | [main] (DDBMSClient.java:24) -                   |                 (\_/)          
+INFO  | 2021-04-03 23:25:34 | [main] (DDBMSClient.java:25) -                   '---------------- (O.O)           
+INFO  | 2021-04-03 23:25:34 | [main] (DDBMSClient.java:26) -                                     (> <)           
+INFO  | 2021-04-03 23:25:34 | [main] (DDBMSClient.java:27) - 
+INFO  | 2021-04-03 23:25:38 | [main] (DDBMSClient.java:47) - 
+INFO  | 2021-04-03 23:25:38 | [main] (DDBMSClient.java:51) - DDBMS>>
+DEBUG | 2021-04-03 23:25:49 | [main] (QueryProcessor.java:27) - Execution started for query - 'DELETE FROM DEPARTMENT NODE LOCAL;' on 2021-04-03T23:25:49.230+0530
+ERROR | 2021-04-03 23:25:49 | [main] (ConstraintCheck.java:84) - Foreign Key constraint for DEPARTMENT violated for keys 2,1,3
+DEBUG | 2021-04-03 23:25:49 | [main] (QueryProcessor.java:61) - Execution completed for query - 'DELETE FROM DEPARTMENT NODE LOCAL;' on 2021-04-03T23:25:49.247+0530
+DEBUG | 2021-04-03 23:25:49 | [main] (QueryProcessor.java:62) - Total execution time for query - 'DELETE FROM DEPARTMENT NODE LOCAL;' is 17ms.
+INFO  | 2021-04-03 23:25:49 | [main] (QueryProcessor.java:63) - Query executed in 17ms.
+INFO  | 2021-04-03 23:25:50 | [main] (DDBMSClient.java:89) - 
+INFO  | 2021-04-03 23:25:50 | [main] (DDBMSClient.java:51) - DDBMS>>
+DEBUG | 2021-04-03 23:26:25 | [main] (QueryProcessor.java:27) - Execution started for query - 'DELETE FROM DEPARTMENT NODE LOCAL WHERE DEPTID = 1;' on 2021-04-03T23:26:25.678+0530
+ERROR | 2021-04-03 23:26:25 | [main] (ConstraintCheck.java:84) - Foreign Key constraint for DEPARTMENT violated for keys 1
+DEBUG | 2021-04-03 23:26:25 | [main] (QueryProcessor.java:61) - Execution completed for query - 'DELETE FROM DEPARTMENT NODE LOCAL WHERE DEPTID = 1;' on 2021-04-03T23:26:25.683+0530
+DEBUG | 2021-04-03 23:26:25 | [main] (QueryProcessor.java:62) - Total execution time for query - 'DELETE FROM DEPARTMENT NODE LOCAL WHERE DEPTID = 1;' is 5ms.
+INFO  | 2021-04-03 23:26:25 | [main] (QueryProcessor.java:63) - Query executed in 5ms.
+INFO  | 2021-04-03 23:26:26 | [main] (DDBMSClient.java:89) - 
+INFO  | 2021-04-03 23:26:26 | [main] (DDBMSClient.java:51) - DDBMS>>
+DEBUG | 2021-04-03 23:27:23 | [main] (QueryProcessor.java:27) - Execution started for query - 'DELETE FROM STUDENT NODE LOCAL WHERE DEPTID = NAMMEME;' on 2021-04-03T23:27:23.484+0530
+ERROR | 2021-04-03 23:27:23 | [main] (ConstraintCheck.java:56) - Column 'DEPTID' requires value of type 'INT'
+DEBUG | 2021-04-03 23:27:23 | [main] (QueryProcessor.java:61) - Execution completed for query - 'DELETE FROM STUDENT NODE LOCAL WHERE DEPTID = NAMMEME;' on 2021-04-03T23:27:23.490+0530
+DEBUG | 2021-04-03 23:27:23 | [main] (QueryProcessor.java:62) - Total execution time for query - 'DELETE FROM STUDENT NODE LOCAL WHERE DEPTID = NAMMEME;' is 6ms.
+INFO  | 2021-04-03 23:27:23 | [main] (QueryProcessor.java:63) - Query executed in 6ms.
+INFO  | 2021-04-03 23:27:24 | [main] (DDBMSClient.java:89) - 
+INFO  | 2021-04-03 23:27:24 | [main] (DDBMSClient.java:51) - DDBMS>>
+DEBUG | 2021-04-03 23:27:32 | [main] (QueryProcessor.java:27) - Execution started for query - 'ELETE FROM STUDENT NODE LOCAL WHERE DEPTID = 1;' on 2021-04-03T23:27:32.253+0530
+INFO  | 2021-04-03 23:27:32 | [main] (QueryProcessor.java:56) - Provided query is not yet supported by this tool.
+DEBUG | 2021-04-03 23:27:32 | [main] (QueryProcessor.java:61) - Execution completed for query - 'ELETE FROM STUDENT NODE LOCAL WHERE DEPTID = 1;' on 2021-04-03T23:27:32.254+0530
+DEBUG | 2021-04-03 23:27:32 | [main] (QueryProcessor.java:62) - Total execution time for query - 'ELETE FROM STUDENT NODE LOCAL WHERE DEPTID = 1;' is 1ms.
+INFO  | 2021-04-03 23:27:32 | [main] (QueryProcessor.java:63) - Query executed in 1ms.
+INFO  | 2021-04-03 23:27:33 | [main] (DDBMSClient.java:89) - 
+INFO  | 2021-04-03 23:27:33 | [main] (DDBMSClient.java:51) - DDBMS>>
+DEBUG | 2021-04-03 23:27:44 | [main] (QueryProcessor.java:27) - Execution started for query - 'DELETE FROM STUDENT NODE LOCAL WHERE DEPTID = 1;' on 2021-04-03T23:27:44.997+0530
+INFO  | 2021-04-03 23:27:45 | [main] (DeleteParser.java:131) - Delete executed successfully!
+DEBUG | 2021-04-03 23:27:45 | [main] (QueryProcessor.java:61) - Execution completed for query - 'DELETE FROM STUDENT NODE LOCAL WHERE DEPTID = 1;' on 2021-04-03T23:27:45.005+0530
+DEBUG | 2021-04-03 23:27:45 | [main] (QueryProcessor.java:62) - Total execution time for query - 'DELETE FROM STUDENT NODE LOCAL WHERE DEPTID = 1;' is 8ms.
+INFO  | 2021-04-03 23:27:45 | [main] (QueryProcessor.java:63) - Query executed in 8ms.
+INFO  | 2021-04-03 23:27:46 | [main] (DDBMSClient.java:89) - 
+INFO  | 2021-04-03 23:27:46 | [main] (DDBMSClient.java:51) - DDBMS>>
+DEBUG | 2021-04-03 23:28:10 | [main] (QueryProcessor.java:27) - Execution started for query - 'DELETE FROM DEPARTMENT NODE LOCAL WHERE DEPTID = 1;' on 2021-04-03T23:28:10.375+0530
+INFO  | 2021-04-03 23:28:10 | [main] (DeleteParser.java:131) - Delete executed successfully!
+DEBUG | 2021-04-03 23:28:10 | [main] (QueryProcessor.java:61) - Execution completed for query - 'DELETE FROM DEPARTMENT NODE LOCAL WHERE DEPTID = 1;' on 2021-04-03T23:28:10.380+0530
+DEBUG | 2021-04-03 23:28:10 | [main] (QueryProcessor.java:62) - Total execution time for query - 'DELETE FROM DEPARTMENT NODE LOCAL WHERE DEPTID = 1;' is 5ms.
+INFO  | 2021-04-03 23:28:10 | [main] (QueryProcessor.java:63) - Query executed in 5ms.
+INFO  | 2021-04-03 23:28:11 | [main] (DDBMSClient.java:89) - 
+INFO  | 2021-04-03 23:28:11 | [main] (DDBMSClient.java:51) - DDBMS>>
+DEBUG | 2021-04-03 23:29:01 | [main] (QueryProcessor.java:27) - Execution started for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 4 WHERE DEPTID = 3;' on 2021-04-03T23:29:01.622+0530
+ERROR | 2021-04-03 23:29:01 | [main] (ConstraintCheck.java:84) - Foreign Key constraint for DEPARTMENT violated for keys 2,1,3
+INFO  | 2021-04-03 23:29:01 | [main] (UpdateParser.java:138) - Updated executed successfully!
+DEBUG | 2021-04-03 23:29:01 | [main] (QueryProcessor.java:61) - Execution completed for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 4 WHERE DEPTID = 3;' on 2021-04-03T23:29:01.636+0530
+DEBUG | 2021-04-03 23:29:01 | [main] (QueryProcessor.java:62) - Total execution time for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 4 WHERE DEPTID = 3;' is 14ms.
+INFO  | 2021-04-03 23:29:01 | [main] (QueryProcessor.java:63) - Query executed in 14ms.
+INFO  | 2021-04-03 23:29:02 | [main] (DDBMSClient.java:89) - 
+INFO  | 2021-04-03 23:29:02 | [main] (DDBMSClient.java:51) - DDBMS>>
+DEBUG | 2021-04-03 23:29:15 | [main] (QueryProcessor.java:27) - Execution started for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 4 WHERE DEPTID = MMM;' on 2021-04-03T23:29:15.713+0530
+ERROR | 2021-04-03 23:29:15 | [main] (ConstraintCheck.java:56) - Column 'DEPTID' requires value of type 'INT'
+DEBUG | 2021-04-03 23:29:15 | [main] (QueryProcessor.java:61) - Execution completed for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 4 WHERE DEPTID = MMM;' on 2021-04-03T23:29:15.716+0530
+DEBUG | 2021-04-03 23:29:15 | [main] (QueryProcessor.java:62) - Total execution time for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 4 WHERE DEPTID = MMM;' is 3ms.
+INFO  | 2021-04-03 23:29:15 | [main] (QueryProcessor.java:63) - Query executed in 3ms.
+INFO  | 2021-04-03 23:29:16 | [main] (DDBMSClient.java:89) - 
+INFO  | 2021-04-03 23:29:16 | [main] (DDBMSClient.java:51) - DDBMS>>
+DEBUG | 2021-04-03 23:29:26 | [main] (QueryProcessor.java:27) - Execution started for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 4 ;' on 2021-04-03T23:29:26.675+0530
+ERROR | 2021-04-03 23:29:26 | [main] (DDBMSClient.java:91) - Error occurred while execution : 
+java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at com.group21.server.queries.updateQuery.UpdateParser.getWhereParameters(UpdateParser.java:74) ~[classes/:?]
+	at com.group21.server.queries.updateQuery.UpdateParser.updateTableWhere(UpdateParser.java:80) ~[classes/:?]
+	at com.group21.server.queries.updateQuery.UpdateQueryExecutor.execute(UpdateQueryExecutor.java:34) ~[classes/:?]
+	at com.group21.server.processor.QueryProcessor.process(QueryProcessor.java:37) ~[classes/:?]
+	at com.group21.client.DDBMSClient.main(DDBMSClient.java:85) [classes/:?]
+INFO  | 2021-04-03 23:29:59 | [main] (DDBMSClient.java:19) -    .-----------------------------.                  
+INFO  | 2021-04-03 23:29:59 | [main] (DDBMSClient.java:20) -    |  Welcome to Group 21 DDBMS  |                  
+INFO  | 2021-04-03 23:29:59 | [main] (DDBMSClient.java:21) -    '-----------------------------'                  
+INFO  | 2021-04-03 23:29:59 | [main] (DDBMSClient.java:22) -                   |                                 
+INFO  | 2021-04-03 23:29:59 | [main] (DDBMSClient.java:23) -                   |                                 
+INFO  | 2021-04-03 23:29:59 | [main] (DDBMSClient.java:24) -                   |                 (\_/)          
+INFO  | 2021-04-03 23:29:59 | [main] (DDBMSClient.java:25) -                   '---------------- (O.O)           
+INFO  | 2021-04-03 23:29:59 | [main] (DDBMSClient.java:26) -                                     (> <)           
+INFO  | 2021-04-03 23:29:59 | [main] (DDBMSClient.java:27) - 
+INFO  | 2021-04-03 23:30:03 | [main] (DDBMSClient.java:47) - 
+INFO  | 2021-04-03 23:30:03 | [main] (DDBMSClient.java:51) - DDBMS>>
+DEBUG | 2021-04-03 23:30:14 | [main] (QueryProcessor.java:27) - Execution started for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 4;' on 2021-04-03T23:30:14.263+0530
+ERROR | 2021-04-03 23:30:14 | [main] (UpdateParser.java:166) - Primary Key constraint violated! Duplicate primary key
+DEBUG | 2021-04-03 23:30:14 | [main] (QueryProcessor.java:61) - Execution completed for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 4;' on 2021-04-03T23:30:14.281+0530
+DEBUG | 2021-04-03 23:30:14 | [main] (QueryProcessor.java:62) - Total execution time for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 4;' is 18ms.
+INFO  | 2021-04-03 23:30:14 | [main] (QueryProcessor.java:63) - Query executed in 18ms.
+INFO  | 2021-04-03 23:30:15 | [main] (DDBMSClient.java:89) - 
+INFO  | 2021-04-03 23:30:15 | [main] (DDBMSClient.java:51) - DDBMS>>
+DEBUG | 2021-04-03 23:30:18 | [main] (QueryProcessor.java:27) - Execution started for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 4 ;' on 2021-04-03T23:30:18.522+0530
+ERROR | 2021-04-03 23:30:18 | [main] (DDBMSClient.java:91) - Error occurred while execution : 
+java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at com.group21.server.queries.updateQuery.UpdateParser.getWhereParameters(UpdateParser.java:74) ~[classes/:?]
+	at com.group21.server.queries.updateQuery.UpdateParser.updateTableWhere(UpdateParser.java:80) ~[classes/:?]
+	at com.group21.server.queries.updateQuery.UpdateQueryExecutor.execute(UpdateQueryExecutor.java:34) ~[classes/:?]
+	at com.group21.server.processor.QueryProcessor.process(QueryProcessor.java:37) ~[classes/:?]
+	at com.group21.client.DDBMSClient.main(DDBMSClient.java:85) [classes/:?]
+INFO  | 2021-04-03 23:37:21 | [main] (DDBMSClient.java:19) -    .-----------------------------.                  
+INFO  | 2021-04-03 23:37:21 | [main] (DDBMSClient.java:20) -    |  Welcome to Group 21 DDBMS  |                  
+INFO  | 2021-04-03 23:37:21 | [main] (DDBMSClient.java:21) -    '-----------------------------'                  
+INFO  | 2021-04-03 23:37:21 | [main] (DDBMSClient.java:22) -                   |                                 
+INFO  | 2021-04-03 23:37:21 | [main] (DDBMSClient.java:23) -                   |                                 
+INFO  | 2021-04-03 23:37:21 | [main] (DDBMSClient.java:24) -                   |                 (\_/)          
+INFO  | 2021-04-03 23:37:21 | [main] (DDBMSClient.java:25) -                   '---------------- (O.O)           
+INFO  | 2021-04-03 23:37:21 | [main] (DDBMSClient.java:26) -                                     (> <)           
+INFO  | 2021-04-03 23:37:21 | [main] (DDBMSClient.java:27) - 
+INFO  | 2021-04-03 23:37:26 | [main] (DDBMSClient.java:47) - 
+INFO  | 2021-04-03 23:37:26 | [main] (DDBMSClient.java:51) - DDBMS>>
+DEBUG | 2021-04-03 23:37:28 | [main] (QueryProcessor.java:27) - Execution started for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 4 ;' on 2021-04-03T23:37:28.674+0530
+ERROR | 2021-04-03 23:37:28 | [main] (UpdateParser.java:28) - Syntax error in provided update query!
+DEBUG | 2021-04-03 23:37:28 | [main] (QueryProcessor.java:61) - Execution completed for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 4 ;' on 2021-04-03T23:37:28.681+0530
+DEBUG | 2021-04-03 23:37:28 | [main] (QueryProcessor.java:62) - Total execution time for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 4 ;' is 7ms.
+INFO  | 2021-04-03 23:37:28 | [main] (QueryProcessor.java:63) - Query executed in 7ms.
+INFO  | 2021-04-03 23:37:29 | [main] (DDBMSClient.java:89) - 
+INFO  | 2021-04-03 23:37:29 | [main] (DDBMSClient.java:51) - DDBMS>>
+DEBUG | 2021-04-03 23:37:37 | [main] (QueryProcessor.java:27) - Execution started for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 4;' on 2021-04-03T23:37:37.511+0530
+ERROR | 2021-04-03 23:37:37 | [main] (UpdateParser.java:28) - Syntax error in provided update query!
+DEBUG | 2021-04-03 23:37:37 | [main] (QueryProcessor.java:61) - Execution completed for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 4;' on 2021-04-03T23:37:37.512+0530
+DEBUG | 2021-04-03 23:37:37 | [main] (QueryProcessor.java:62) - Total execution time for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 4;' is 1ms.
+INFO  | 2021-04-03 23:37:37 | [main] (QueryProcessor.java:63) - Query executed in 1ms.
+INFO  | 2021-04-03 23:37:38 | [main] (DDBMSClient.java:89) - 
+INFO  | 2021-04-03 23:37:38 | [main] (DDBMSClient.java:51) - DDBMS>>
+DEBUG | 2021-04-03 23:37:54 | [main] (QueryProcessor.java:27) - Execution started for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 4;' on 2021-04-03T23:37:54.236+0530
+ERROR | 2021-04-03 23:37:54 | [main] (UpdateParser.java:28) - Syntax error in provided update query!
+DEBUG | 2021-04-03 23:37:54 | [main] (QueryProcessor.java:61) - Execution completed for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 4;' on 2021-04-03T23:37:54.237+0530
+DEBUG | 2021-04-03 23:37:54 | [main] (QueryProcessor.java:62) - Total execution time for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 4;' is 1ms.
+INFO  | 2021-04-03 23:37:54 | [main] (QueryProcessor.java:63) - Query executed in 1ms.
+INFO  | 2021-04-03 23:37:55 | [main] (DDBMSClient.java:89) - 
+INFO  | 2021-04-03 23:37:55 | [main] (DDBMSClient.java:51) - DDBMS>>
+INFO  | 2021-04-03 23:38:07 | [main] (DDBMSClient.java:19) -    .-----------------------------.                  
+INFO  | 2021-04-03 23:38:07 | [main] (DDBMSClient.java:20) -    |  Welcome to Group 21 DDBMS  |                  
+INFO  | 2021-04-03 23:38:07 | [main] (DDBMSClient.java:21) -    '-----------------------------'                  
+INFO  | 2021-04-03 23:38:07 | [main] (DDBMSClient.java:22) -                   |                                 
+INFO  | 2021-04-03 23:38:07 | [main] (DDBMSClient.java:23) -                   |                                 
+INFO  | 2021-04-03 23:38:07 | [main] (DDBMSClient.java:24) -                   |                 (\_/)          
+INFO  | 2021-04-03 23:38:07 | [main] (DDBMSClient.java:25) -                   '---------------- (O.O)           
+INFO  | 2021-04-03 23:38:07 | [main] (DDBMSClient.java:26) -                                     (> <)           
+INFO  | 2021-04-03 23:38:07 | [main] (DDBMSClient.java:27) - 
+INFO  | 2021-04-03 23:38:12 | [main] (DDBMSClient.java:47) - 
+INFO  | 2021-04-03 23:38:12 | [main] (DDBMSClient.java:51) - DDBMS>>
+INFO  | 2021-04-03 23:39:18 | [main] (DDBMSClient.java:19) -    .-----------------------------.                  
+INFO  | 2021-04-03 23:39:18 | [main] (DDBMSClient.java:20) -    |  Welcome to Group 21 DDBMS  |                  
+INFO  | 2021-04-03 23:39:18 | [main] (DDBMSClient.java:21) -    '-----------------------------'                  
+INFO  | 2021-04-03 23:39:18 | [main] (DDBMSClient.java:22) -                   |                                 
+INFO  | 2021-04-03 23:39:18 | [main] (DDBMSClient.java:23) -                   |                                 
+INFO  | 2021-04-03 23:39:18 | [main] (DDBMSClient.java:24) -                   |                 (\_/)          
+INFO  | 2021-04-03 23:39:18 | [main] (DDBMSClient.java:25) -                   '---------------- (O.O)           
+INFO  | 2021-04-03 23:39:18 | [main] (DDBMSClient.java:26) -                                     (> <)           
+INFO  | 2021-04-03 23:39:18 | [main] (DDBMSClient.java:27) - 
+INFO  | 2021-04-03 23:39:23 | [main] (DDBMSClient.java:47) - 
+INFO  | 2021-04-03 23:39:23 | [main] (DDBMSClient.java:51) - DDBMS>>
+DEBUG | 2021-04-03 23:39:55 | [main] (QueryProcessor.java:27) - Execution started for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 2   ;' on 2021-04-03T23:39:55.617+0530
+ERROR | 2021-04-03 23:39:55 | [main] (DDBMSClient.java:91) - Error occurred while execution : 
+java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at com.group21.server.queries.updateQuery.UpdateParser.getWhereParameters(UpdateParser.java:76) ~[classes/:?]
+	at com.group21.server.queries.updateQuery.UpdateParser.updateTableWhere(UpdateParser.java:82) ~[classes/:?]
+	at com.group21.server.queries.updateQuery.UpdateQueryExecutor.execute(UpdateQueryExecutor.java:34) ~[classes/:?]
+	at com.group21.server.processor.QueryProcessor.process(QueryProcessor.java:37) ~[classes/:?]
+	at com.group21.client.DDBMSClient.main(DDBMSClient.java:85) [classes/:?]
+INFO  | 2021-04-03 23:40:26 | [main] (DDBMSClient.java:19) -    .-----------------------------.                  
+INFO  | 2021-04-03 23:40:26 | [main] (DDBMSClient.java:20) -    |  Welcome to Group 21 DDBMS  |                  
+INFO  | 2021-04-03 23:40:26 | [main] (DDBMSClient.java:21) -    '-----------------------------'                  
+INFO  | 2021-04-03 23:40:26 | [main] (DDBMSClient.java:22) -                   |                                 
+INFO  | 2021-04-03 23:40:26 | [main] (DDBMSClient.java:23) -                   |                                 
+INFO  | 2021-04-03 23:40:26 | [main] (DDBMSClient.java:24) -                   |                 (\_/)          
+INFO  | 2021-04-03 23:40:26 | [main] (DDBMSClient.java:25) -                   '---------------- (O.O)           
+INFO  | 2021-04-03 23:40:26 | [main] (DDBMSClient.java:26) -                                     (> <)           
+INFO  | 2021-04-03 23:40:26 | [main] (DDBMSClient.java:27) - 
+INFO  | 2021-04-03 23:40:30 | [main] (DDBMSClient.java:47) - 
+INFO  | 2021-04-03 23:40:30 | [main] (DDBMSClient.java:51) - DDBMS>>
+DEBUG | 2021-04-03 23:40:32 | [main] (QueryProcessor.java:27) - Execution started for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 2   ;' on 2021-04-03T23:40:32.508+0530
+ERROR | 2021-04-03 23:40:32 | [main] (DDBMSClient.java:91) - Error occurred while execution : 
+java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at com.group21.server.queries.updateQuery.UpdateParser.getWhereParameters(UpdateParser.java:78) ~[classes/:?]
+	at com.group21.server.queries.updateQuery.UpdateParser.updateTableWhere(UpdateParser.java:84) ~[classes/:?]
+	at com.group21.server.queries.updateQuery.UpdateQueryExecutor.execute(UpdateQueryExecutor.java:34) ~[classes/:?]
+	at com.group21.server.processor.QueryProcessor.process(QueryProcessor.java:37) ~[classes/:?]
+	at com.group21.client.DDBMSClient.main(DDBMSClient.java:85) [classes/:?]
+INFO  | 2021-04-03 23:41:10 | [main] (DDBMSClient.java:19) -    .-----------------------------.                  
+INFO  | 2021-04-03 23:41:10 | [main] (DDBMSClient.java:20) -    |  Welcome to Group 21 DDBMS  |                  
+INFO  | 2021-04-03 23:41:10 | [main] (DDBMSClient.java:21) -    '-----------------------------'                  
+INFO  | 2021-04-03 23:41:10 | [main] (DDBMSClient.java:22) -                   |                                 
+INFO  | 2021-04-03 23:41:10 | [main] (DDBMSClient.java:23) -                   |                                 
+INFO  | 2021-04-03 23:41:10 | [main] (DDBMSClient.java:24) -                   |                 (\_/)          
+INFO  | 2021-04-03 23:41:10 | [main] (DDBMSClient.java:25) -                   '---------------- (O.O)           
+INFO  | 2021-04-03 23:41:10 | [main] (DDBMSClient.java:26) -                                     (> <)           
+INFO  | 2021-04-03 23:41:10 | [main] (DDBMSClient.java:27) - 
+INFO  | 2021-04-03 23:41:14 | [main] (DDBMSClient.java:47) - 
+INFO  | 2021-04-03 23:41:14 | [main] (DDBMSClient.java:51) - DDBMS>>
+DEBUG | 2021-04-03 23:41:16 | [main] (QueryProcessor.java:27) - Execution started for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 2   ;' on 2021-04-03T23:41:16.589+0530
+ERROR | 2021-04-03 23:41:16 | [main] (DDBMSClient.java:91) - Error occurred while execution : 
+java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at com.group21.server.queries.updateQuery.UpdateParser.getWhereParameters(UpdateParser.java:78) ~[classes/:?]
+	at com.group21.server.queries.updateQuery.UpdateParser.updateTableWhere(UpdateParser.java:84) ~[classes/:?]
+	at com.group21.server.queries.updateQuery.UpdateQueryExecutor.execute(UpdateQueryExecutor.java:34) ~[classes/:?]
+	at com.group21.server.processor.QueryProcessor.process(QueryProcessor.java:37) ~[classes/:?]
+	at com.group21.client.DDBMSClient.main(DDBMSClient.java:85) [classes/:?]
+INFO  | 2021-04-03 23:43:57 | [main] (DDBMSClient.java:19) -    .-----------------------------.                  
+INFO  | 2021-04-03 23:43:57 | [main] (DDBMSClient.java:20) -    |  Welcome to Group 21 DDBMS  |                  
+INFO  | 2021-04-03 23:43:57 | [main] (DDBMSClient.java:21) -    '-----------------------------'                  
+INFO  | 2021-04-03 23:43:57 | [main] (DDBMSClient.java:22) -                   |                                 
+INFO  | 2021-04-03 23:43:57 | [main] (DDBMSClient.java:23) -                   |                                 
+INFO  | 2021-04-03 23:43:57 | [main] (DDBMSClient.java:24) -                   |                 (\_/)          
+INFO  | 2021-04-03 23:43:57 | [main] (DDBMSClient.java:25) -                   '---------------- (O.O)           
+INFO  | 2021-04-03 23:43:57 | [main] (DDBMSClient.java:26) -                                     (> <)           
+INFO  | 2021-04-03 23:43:57 | [main] (DDBMSClient.java:27) - 
+INFO  | 2021-04-03 23:44:02 | [main] (DDBMSClient.java:47) - 
+INFO  | 2021-04-03 23:44:02 | [main] (DDBMSClient.java:51) - DDBMS>>
+DEBUG | 2021-04-03 23:44:04 | [main] (QueryProcessor.java:27) - Execution started for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 2   ;' on 2021-04-03T23:44:04.699+0530
+ERROR | 2021-04-03 23:44:04 | [main] (UpdateParser.java:170) - Primary Key constraint violated! Duplicate primary key
+DEBUG | 2021-04-03 23:44:04 | [main] (QueryProcessor.java:61) - Execution completed for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 2   ;' on 2021-04-03T23:44:04.715+0530
+DEBUG | 2021-04-03 23:44:04 | [main] (QueryProcessor.java:62) - Total execution time for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 2   ;' is 16ms.
+INFO  | 2021-04-03 23:44:04 | [main] (QueryProcessor.java:63) - Query executed in 16ms.
+INFO  | 2021-04-03 23:44:05 | [main] (DDBMSClient.java:89) - 
+INFO  | 2021-04-03 23:44:05 | [main] (DDBMSClient.java:51) - DDBMS>>
+INFO  | 2021-04-03 23:45:34 | [main] (DDBMSClient.java:19) -    .-----------------------------.                  
+INFO  | 2021-04-03 23:45:34 | [main] (DDBMSClient.java:20) -    |  Welcome to Group 21 DDBMS  |                  
+INFO  | 2021-04-03 23:45:34 | [main] (DDBMSClient.java:21) -    '-----------------------------'                  
+INFO  | 2021-04-03 23:45:34 | [main] (DDBMSClient.java:22) -                   |                                 
+INFO  | 2021-04-03 23:45:34 | [main] (DDBMSClient.java:23) -                   |                                 
+INFO  | 2021-04-03 23:45:34 | [main] (DDBMSClient.java:24) -                   |                 (\_/)          
+INFO  | 2021-04-03 23:45:34 | [main] (DDBMSClient.java:25) -                   '---------------- (O.O)           
+INFO  | 2021-04-03 23:45:34 | [main] (DDBMSClient.java:26) -                                     (> <)           
+INFO  | 2021-04-03 23:45:34 | [main] (DDBMSClient.java:27) - 
+INFO  | 2021-04-03 23:45:39 | [main] (DDBMSClient.java:47) - 
+INFO  | 2021-04-03 23:45:39 | [main] (DDBMSClient.java:51) - DDBMS>>
+DEBUG | 2021-04-03 23:45:40 | [main] (QueryProcessor.java:27) - Execution started for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 2   ;' on 2021-04-03T23:45:40.885+0530
+ERROR | 2021-04-03 23:45:40 | [main] (UpdateParser.java:170) - Primary Key constraint violated! Duplicate primary key
+DEBUG | 2021-04-03 23:45:40 | [main] (QueryProcessor.java:61) - Execution completed for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 2   ;' on 2021-04-03T23:45:40.901+0530
+DEBUG | 2021-04-03 23:45:40 | [main] (QueryProcessor.java:62) - Total execution time for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 2   ;' is 16ms.
+INFO  | 2021-04-03 23:45:40 | [main] (QueryProcessor.java:63) - Query executed in 16ms.
+INFO  | 2021-04-03 23:45:41 | [main] (DDBMSClient.java:89) - 
+INFO  | 2021-04-03 23:45:41 | [main] (DDBMSClient.java:51) - DDBMS>>
+DEBUG | 2021-04-03 23:49:20 | [main] (QueryProcessor.java:27) - Execution started for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 2 WHERE DEPTID = 3;' on 2021-04-03T23:49:20.607+0530
+ERROR | 2021-04-03 23:49:20 | [main] (UpdateParser.java:112) - Primary Key constraint violated! Duplicate primary key
+DEBUG | 2021-04-03 23:49:20 | [main] (QueryProcessor.java:61) - Execution completed for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 2 WHERE DEPTID = 3;' on 2021-04-03T23:49:20.613+0530
+DEBUG | 2021-04-03 23:49:20 | [main] (QueryProcessor.java:62) - Total execution time for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 2 WHERE DEPTID = 3;' is 6ms.
+INFO  | 2021-04-03 23:49:20 | [main] (QueryProcessor.java:63) - Query executed in 6ms.
+INFO  | 2021-04-03 23:49:22 | [main] (DDBMSClient.java:89) - 
+INFO  | 2021-04-03 23:49:22 | [main] (DDBMSClient.java:51) - DDBMS>>
+DEBUG | 2021-04-03 23:49:30 | [main] (QueryProcessor.java:27) - Execution started for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 4 WHERE DEPTID = 3;' on 2021-04-03T23:49:30.870+0530
+ERROR | 2021-04-03 23:49:30 | [main] (UpdateParser.java:112) - Primary Key constraint violated! Duplicate primary key
+DEBUG | 2021-04-03 23:49:30 | [main] (QueryProcessor.java:61) - Execution completed for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 4 WHERE DEPTID = 3;' on 2021-04-03T23:49:30.875+0530
+DEBUG | 2021-04-03 23:49:30 | [main] (QueryProcessor.java:62) - Total execution time for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 4 WHERE DEPTID = 3;' is 5ms.
+INFO  | 2021-04-03 23:49:30 | [main] (QueryProcessor.java:63) - Query executed in 5ms.
+INFO  | 2021-04-03 23:49:31 | [main] (DDBMSClient.java:89) - 
+INFO  | 2021-04-03 23:49:31 | [main] (DDBMSClient.java:51) - DDBMS>>
+DEBUG | 2021-04-03 23:50:09 | [main] (QueryProcessor.java:27) - Execution started for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 5 WHERE DEPTID = 4;' on 2021-04-03T23:50:09.909+0530
+ERROR | 2021-04-03 23:50:09 | [main] (ConstraintCheck.java:84) - Foreign Key constraint for DEPARTMENT violated for keys 2,1,4
+INFO  | 2021-04-03 23:50:09 | [main] (UpdateParser.java:142) - Updated executed successfully!
+DEBUG | 2021-04-03 23:50:09 | [main] (QueryProcessor.java:61) - Execution completed for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 5 WHERE DEPTID = 4;' on 2021-04-03T23:50:09.919+0530
+DEBUG | 2021-04-03 23:50:09 | [main] (QueryProcessor.java:62) - Total execution time for query - 'UPDATE DEPARTMENT NODE LOCAL SET DEPTID = 5 WHERE DEPTID = 4;' is 10ms.
+INFO  | 2021-04-03 23:50:09 | [main] (QueryProcessor.java:63) - Query executed in 10ms.
+INFO  | 2021-04-03 23:50:10 | [main] (DDBMSClient.java:89) - 
+INFO  | 2021-04-03 23:50:10 | [main] (DDBMSClient.java:51) - DDBMS>>
+DEBUG | 2021-04-03 23:50:45 | [main] (QueryProcessor.java:27) - Execution started for query - 'UPDATE DEPARTMENT NODE REMOTE SET DEPTID = 5 WHERE DEPTID = 4;' on 2021-04-03T23:50:45.592+0530
+ERROR | 2021-04-03 23:50:49 | [main] (ConstraintCheck.java:39) - Column Name 'DEPTID' does not exist in table
+DEBUG | 2021-04-03 23:50:49 | [main] (QueryProcessor.java:61) - Execution completed for query - 'UPDATE DEPARTMENT NODE REMOTE SET DEPTID = 5 WHERE DEPTID = 4;' on 2021-04-03T23:50:49.186+0530
+DEBUG | 2021-04-03 23:50:49 | [main] (QueryProcessor.java:62) - Total execution time for query - 'UPDATE DEPARTMENT NODE REMOTE SET DEPTID = 5 WHERE DEPTID = 4;' is 3594ms.
+INFO  | 2021-04-03 23:50:49 | [main] (QueryProcessor.java:63) - Query executed in 3594ms.
+INFO  | 2021-04-03 23:50:50 | [main] (DDBMSClient.java:89) - 
+INFO  | 2021-04-03 23:50:50 | [main] (DDBMSClient.java:51) - DDBMS>>

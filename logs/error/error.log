@@ -1,0 +1,58 @@
+ERROR | 2021-04-03 23:00:16 | [main] (DeleteParser.java:141) - Error occurred while deleting the table
+ERROR | 2021-04-03 23:00:28 | [main] (DeleteParser.java:28) - Syntax error in provided delete query!
+ERROR | 2021-04-03 23:00:38 | [main] (DeleteParser.java:92) - Error occurred ..........while deleting the table
+ERROR | 2021-04-03 23:09:36 | [main] (DeleteParser.java:92) - Error occurred ..........while deleting the table
+ERROR | 2021-04-03 23:25:24 | [main] (DDBMSClient.java:91) - Error occurred while execution : 
+java.util.NoSuchElementException: No line found
+	at java.util.Scanner.nextLine(Scanner.java:1651) ~[?:?]
+	at com.group21.client.DDBMSClient.main(DDBMSClient.java:53) [classes/:?]
+ERROR | 2021-04-03 23:25:49 | [main] (ConstraintCheck.java:84) - Foreign Key constraint for DEPARTMENT violated for keys 2,1,3
+ERROR | 2021-04-03 23:26:25 | [main] (ConstraintCheck.java:84) - Foreign Key constraint for DEPARTMENT violated for keys 1
+ERROR | 2021-04-03 23:27:23 | [main] (ConstraintCheck.java:56) - Column 'DEPTID' requires value of type 'INT'
+ERROR | 2021-04-03 23:29:01 | [main] (ConstraintCheck.java:84) - Foreign Key constraint for DEPARTMENT violated for keys 2,1,3
+ERROR | 2021-04-03 23:29:15 | [main] (ConstraintCheck.java:56) - Column 'DEPTID' requires value of type 'INT'
+ERROR | 2021-04-03 23:29:26 | [main] (DDBMSClient.java:91) - Error occurred while execution : 
+java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at com.group21.server.queries.updateQuery.UpdateParser.getWhereParameters(UpdateParser.java:74) ~[classes/:?]
+	at com.group21.server.queries.updateQuery.UpdateParser.updateTableWhere(UpdateParser.java:80) ~[classes/:?]
+	at com.group21.server.queries.updateQuery.UpdateQueryExecutor.execute(UpdateQueryExecutor.java:34) ~[classes/:?]
+	at com.group21.server.processor.QueryProcessor.process(QueryProcessor.java:37) ~[classes/:?]
+	at com.group21.client.DDBMSClient.main(DDBMSClient.java:85) [classes/:?]
+ERROR | 2021-04-03 23:30:14 | [main] (UpdateParser.java:166) - Primary Key constraint violated! Duplicate primary key
+ERROR | 2021-04-03 23:30:18 | [main] (DDBMSClient.java:91) - Error occurred while execution : 
+java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at com.group21.server.queries.updateQuery.UpdateParser.getWhereParameters(UpdateParser.java:74) ~[classes/:?]
+	at com.group21.server.queries.updateQuery.UpdateParser.updateTableWhere(UpdateParser.java:80) ~[classes/:?]
+	at com.group21.server.queries.updateQuery.UpdateQueryExecutor.execute(UpdateQueryExecutor.java:34) ~[classes/:?]
+	at com.group21.server.processor.QueryProcessor.process(QueryProcessor.java:37) ~[classes/:?]
+	at com.group21.client.DDBMSClient.main(DDBMSClient.java:85) [classes/:?]
+ERROR | 2021-04-03 23:37:28 | [main] (UpdateParser.java:28) - Syntax error in provided update query!
+ERROR | 2021-04-03 23:37:37 | [main] (UpdateParser.java:28) - Syntax error in provided update query!
+ERROR | 2021-04-03 23:37:54 | [main] (UpdateParser.java:28) - Syntax error in provided update query!
+ERROR | 2021-04-03 23:39:55 | [main] (DDBMSClient.java:91) - Error occurred while execution : 
+java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at com.group21.server.queries.updateQuery.UpdateParser.getWhereParameters(UpdateParser.java:76) ~[classes/:?]
+	at com.group21.server.queries.updateQuery.UpdateParser.updateTableWhere(UpdateParser.java:82) ~[classes/:?]
+	at com.group21.server.queries.updateQuery.UpdateQueryExecutor.execute(UpdateQueryExecutor.java:34) ~[classes/:?]
+	at com.group21.server.processor.QueryProcessor.process(QueryProcessor.java:37) ~[classes/:?]
+	at com.group21.client.DDBMSClient.main(DDBMSClient.java:85) [classes/:?]
+ERROR | 2021-04-03 23:40:32 | [main] (DDBMSClient.java:91) - Error occurred while execution : 
+java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at com.group21.server.queries.updateQuery.UpdateParser.getWhereParameters(UpdateParser.java:78) ~[classes/:?]
+	at com.group21.server.queries.updateQuery.UpdateParser.updateTableWhere(UpdateParser.java:84) ~[classes/:?]
+	at com.group21.server.queries.updateQuery.UpdateQueryExecutor.execute(UpdateQueryExecutor.java:34) ~[classes/:?]
+	at com.group21.server.processor.QueryProcessor.process(QueryProcessor.java:37) ~[classes/:?]
+	at com.group21.client.DDBMSClient.main(DDBMSClient.java:85) [classes/:?]
+ERROR | 2021-04-03 23:41:16 | [main] (DDBMSClient.java:91) - Error occurred while execution : 
+java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at com.group21.server.queries.updateQuery.UpdateParser.getWhereParameters(UpdateParser.java:78) ~[classes/:?]
+	at com.group21.server.queries.updateQuery.UpdateParser.updateTableWhere(UpdateParser.java:84) ~[classes/:?]
+	at com.group21.server.queries.updateQuery.UpdateQueryExecutor.execute(UpdateQueryExecutor.java:34) ~[classes/:?]
+	at com.group21.server.processor.QueryProcessor.process(QueryProcessor.java:37) ~[classes/:?]
+	at com.group21.client.DDBMSClient.main(DDBMSClient.java:85) [classes/:?]
+ERROR | 2021-04-03 23:44:04 | [main] (UpdateParser.java:170) - Primary Key constraint violated! Duplicate primary key
+ERROR | 2021-04-03 23:45:40 | [main] (UpdateParser.java:170) - Primary Key constraint violated! Duplicate primary key
+ERROR | 2021-04-03 23:49:20 | [main] (UpdateParser.java:112) - Primary Key constraint violated! Duplicate primary key
+ERROR | 2021-04-03 23:49:30 | [main] (UpdateParser.java:112) - Primary Key constraint violated! Duplicate primary key
+ERROR | 2021-04-03 23:50:09 | [main] (ConstraintCheck.java:84) - Foreign Key constraint for DEPARTMENT violated for keys 2,1,4
+ERROR | 2021-04-03 23:50:49 | [main] (ConstraintCheck.java:39) - Column Name 'DEPTID' does not exist in table
